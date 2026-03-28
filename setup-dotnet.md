@@ -1,73 +1,72 @@
-# Hướng dẫn Setup môi trường .NET trên Windows và Khởi tạo Project
+# Guide to Setting Up the .NET Environment on Windows and Creating a Project
 
-## 1. Mục đích
-Tài liệu này ghi chú lại các bước cài đặt môi trường .NET và cách khởi chạy một dự án .NET cơ bản.
+## 1. Purpose
+This document outlines the steps for setting up the .NET environment and how to launch a basic .NET project.
 
-## 2. Cài đặt môi trường .NET
-**Bước 1:** Truy cập vào trang chủ [.NET Download](https://dotnet.microsoft.com/download).
+## 2. Setting Up the .NET Environment
+**Step 1:** Visit the [.NET Download](https://dotnet.microsoft.com/download) homepage.
 
 ![Trang chủ .NET Download](<Screenshot 2026-03-22 200726.png>)
 
-**Bước 2:** Tải bộ cài đặt .NET SDK dành cho Windows (Bản x64).
+**Step 2:** Download the .NET SDK installer for Windows (x64 version).
 
 ![Tải bộ cài đặt](<Screenshot (18).png>)
 
-**Bước 3:** Chạy file cài đặt.
+**Step 3:** Run the installer.
 
 ![Cài đặt thành công](<Screenshot 2026-03-22 193039.png>)
 
-**Bước 4:** Kiểm tra cài đặt thành công bằng cách mở Terminal và chạy lệnh:
+**Step 4:** Verify the installation by opening the Terminal and running the command:
 ` ` `bash
 dotnet --version
 ` ` `
 
 ![Kiểm tra cài đặt](<Screenshot 2026-03-22 193130.png>)
 
-*(Chèn hình ảnh chụp màn hình terminal của bạn vào đây bằng cú pháp: `![Mô tả ảnh](link_anh_hoac_du_ong_dan_anh)`)*
+*(Insert a screenshot of your terminal here using the syntax: `![Image description](image_link_or_path)`)*
 
+## 3. Initialize the Source Code (Init Project)
 
-## 3. Khởi tạo Source Code (Init Project)
-
-Mở Terminal, tạo một thư mục mới cho dự án và đi vào thư mục đó:
+Open Terminal, create a new directory for the project, and navigate to that directory:
 
 ![tạo một thư mục mới](<Screenshot 2026-03-22 193505.png>)
 
-Để tạo một dự án mới, chạy lệnh sau trong thư mục trống:
+To create a new project, run the following command in the empty directory:
 ` ` `bash
 dotnet new console
 ` ` `
-Lệnh này sẽ tạo ra một ứng dụng Console cơ bản.
+This command will create a basic Console application.
 
 ![Tạo Console](<Screenshot 2026-03-22 193604.png>)
 
-## 4. Chạy thử dự án
-Sử dụng lệnh sau để build và chạy ứng dụng:
+## 4. Run the Project
+Use the following command to build and run the application:
 ` ` `bash
 dotnet run
 ` ` `
-Kết quả hiển thị trên màn hình sẽ là: `Hello, World!`
+The result displayed on the screen will be: `Hello, World!`
 
 ![Kết quả màn hình](<Screenshot 2026-03-22 193633.png>)
 
-## 5. Put Code lên Github
-Tạo 1 Repository trên Github cho Project
+## 5. Push Code to GitHub
+Create a GitHub repository for the project
 
 ![Tạo 1 Repository](<Screenshot 2026-03-22 204300.png>)
 
-Tiếp theo gõ git init để khởi tạo 1 git repository và thêm lệnh git commit -m "Add new project food" . Lệnh này dùng để note lại các thay đổi để dễ dàng theo dõi
+Next, type `git init` to initialize a Git repository and add the command `git commit -m “Add new project food”`. This command is used to note changes for easy tracking
 
 ![Tạo lệnh git init và git commit](<Screenshot 2026-03-22 205513.png>)
 
-Kế tiếp gõ lệnh git branch -M main
+Next, type the command `git branch -M main`
 
-Sau đó gõ thêm lệnh git remote add origin <link github của Repository tạo lúc đầu>
+Then add the command `git remote add origin <GitHub link of the repository created earlier>
 
 ![Tạo lệnh git branch và git remote](<Screenshot 2026-03-22 205851.png>)
 
-Cuối cùng gõ lệnh git push -u origin main để đưa code lên Github
+Finally, type the command `git push -u origin main` to push the code to GitHub
 
 ![Đưa code lên Github](<Screenshot 2026-03-22 210408.png>)
 
-Kết quả khi hoàn thành
+Result upon completion
 
 ![Kết quả](<Screenshot 2026-03-22 210908.png>)
