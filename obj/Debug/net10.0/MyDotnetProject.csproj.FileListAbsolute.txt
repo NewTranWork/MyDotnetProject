@@ -1,14 +1,6 @@
-C:\Users\User\MyDotnetProject\bin\Debug\net10.0\MyDotnetProject.exe
-C:\Users\User\MyDotnetProject\bin\Debug\net10.0\MyDotnetProject.deps.json
-C:\Users\User\MyDotnetProject\bin\Debug\net10.0\MyDotnetProject.runtimeconfig.json
-C:\Users\User\MyDotnetProject\bin\Debug\net10.0\MyDotnetProject.dll
-C:\Users\User\MyDotnetProject\bin\Debug\net10.0\MyDotnetProject.pdb
+C:\Users\User\MyDotnetProject\obj\Debug\net10.0\MyDotnetProject.csproj.AssemblyReference.cache
 C:\Users\User\MyDotnetProject\obj\Debug\net10.0\MyDotnetProject.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\MyDotnetProject\obj\Debug\net10.0\MyDotnetProject.AssemblyInfoInputs.cache
 C:\Users\User\MyDotnetProject\obj\Debug\net10.0\MyDotnetProject.AssemblyInfo.cs
 C:\Users\User\MyDotnetProject\obj\Debug\net10.0\MyDotnetProject.csproj.CoreCompileInputs.cache
-C:\Users\User\MyDotnetProject\obj\Debug\net10.0\MyDotnetProject.dll
-C:\Users\User\MyDotnetProject\obj\Debug\net10.0\refint\MyDotnetProject.dll
-C:\Users\User\MyDotnetProject\obj\Debug\net10.0\MyDotnetProject.pdb
-C:\Users\User\MyDotnetProject\obj\Debug\net10.0\MyDotnetProject.genruntimeconfig.cache
-C:\Users\User\MyDotnetProject\obj\Debug\net10.0\ref\MyDotnetProject.dll
+C:\Users\User\MyDotnetProject\obj\Debug\net10.0\MyDotnetProject.sourcelink.json
